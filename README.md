@@ -1,2 +1,6 @@
 # Home-SPS
-I am building an own SPS with an Raspberry pi pico
+I'm building my own PLC using a Raspberry Pi Pico.
+
+The idea came from the fact that I only have one power strip in my workshop that I can switch on and off. So I thought I'd build myself a PLC that controls, switches, and manages things for me. In version 1.0, the plan is to first set everything up and control a total of 10 relays with buttons. Anything beyond that will follow in later versions.
+
+Warning: if this project is replicated, you should thoroughly research how alternating current works in your own country. I'm using voltage supplies designed for the Austrian grid. Also, not everything here is grounded, which makes the build a "build at your own risk" situation. Therefore, I take no responsibility for anyone replicating this on their own. However, if every precaution is taken the way I did it, I can assure you that everything works without issues! (e.g., covering certain components, grounding, installing circuit breakers, finding out what the best components are for your own AC grid, ...)
